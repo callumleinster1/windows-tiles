@@ -1,78 +1,235 @@
-<style>
-* { box-sizing: border-box }
-html, body {
-  width: 99%;
-  height: 100%;
-}
-div {
-  float: left;
-  display: block;
-  color: #fff;
-  width: 20%;
-  height: 25%;
-  position: relative;
-  transition: opacity 0.5s ease;
-}
-div:hover {
-  opacity: 0.85;
-}
-p {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 1em;
-  position: absolute;
-  bottom: 0;
-  padding-left: 0.2em;
-  margin-bottom: 0.3em;
-  text-transform: uppercase;
-}
-.turquoise { background: #1abc9c; }
-.emerland { background: #2ecc71; }
-.peterriver { background: #3498db; }
-.amethyst { background: #9b59b6; }
-.wetasphalt { background: #34495e; }
-.greensea { background: #16a085; }
-.nephritis { background: #27ae60; }
-.belizehole { background: #2980b9; }
-.wisteria { background: #8e44ad; }
-.midnightblue { background: #2c3e50; }
-.sunflower { background: #f1c40f; }
-.carrot { background: #e67e22; }
-.alizarin { background: #e74c3c; }
-.clouds { background: #ecf0f1; color: #999; }
-.concrete { background: #95a5a6; }
-.orange { background: #f39c12; }
-.pumpkin { background: #d35400; }
-.pomegranate { background: #c0392b; }
-.silver { background: #bdc3c7; }
-.asbestos { background: #7f8c8d; }
-</style>
 <!DOCTYPE html>
 <html>
 <head>
   <title>Callum Leinster</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="author" content="Callum Leinster">
+  <meta name="keywords" content="Practice, Windows, Boxes, Hobbies">
+  <meta name="description" content="Practise Windows Style page">
 </head>
 <body>
-<div class="turquoise"><p>Callum Portfolio</p></div>
-<div class="emerland"><p>The Lab</p></div>
-<div class="peterriver"><p>LabStormz</p></div>
-<div class="amethyst"><p>HashBlue</p></div>
-<div class="wetasphalt"><p>Where</p></div>
-<div class="greensea"><p>O2 Store Info</p></div>
-<div class="nephritis"><p>SyFy Practice</p></div>
-<div class="belizehole"><p>PlaceNumber.net</p></div>
-<div class="wisteria"><p>University of Huddersfield</p></div>
-<div class="midnightblue"><p>O2</p></div>
-<div class="sunflower"><p>Leeds United</p></div>
-<div class="carrot"><p>Leeds Rhinos</p></div>
-<div class="alizarin"><p>DJing</p></div>
-<div class="clouds"><p>FIFA 13</p></div>
-<div class="concrete"><p>Tennis</p></div>
-<div class="orange"><p>Politics</p></div>
-<div class="pumpkin"><p>Leeds</p></div>
-<div class="pomegranate"><p>LinkedIn</p></div>
-<div class="silver"><p>Facebook</p></div>
-<div class="asbestos"><p>Twitter</p></div>
+
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="turquoise">
+    <div class="front">
+      Callum Leinster
+    </div>
+    <div class="back">
+      Callum Leinster Portfolio
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-2" ontouchstart="this.classList.toggle('hover');">
+  <div class="emerland">
+    <div class="front">
+      The Lab, Powered By O2
+    </div>
+    <div class="back">
+      Placement year 2012, 2013
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-3" ontouchstart="this.classList.toggle('hover');">
+  <div class="peterriver">
+    <div class="front">
+      LabStormz
+    </div>
+    <div class="back">
+      Project whilst on Placement
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-4" ontouchstart="this.classList.toggle('hover');">
+  <div class="amethyst">
+    <div class="front">
+      HashBlue
+    </div>
+    <div class="back">
+      Closing down website message
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-5" ontouchstart="this.classList.toggle('hover');">
+  <div class="wetasphalt">
+    <div class="front">
+      Where
+    </div>
+    <div class="back">
+      Project to find out where employees are
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-6" ontouchstart="this.classList.toggle('hover');">
+  <div class="greensea">
+    <div class="front">
+      O2 Store Information
+    </div>
+    <div class="back">
+      Find out key useragents of employees.
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-7" ontouchstart="this.classList.toggle('hover');">
+  <div class="nephritis">
+    <div class="front">
+      SyFy Practice
+    </div>
+    <div class="back">
+      Gain experience with HTML5 and CSS3.
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-8" ontouchstart="this.classList.toggle('hover');">
+  <div class="belizehole">
+    <div class="front">
+      PlaceNumber.net
+    </div>
+    <div class="back">
+      API/ Service for getting placeholder phone numbers.
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-9" ontouchstart="this.classList.toggle('hover');">
+  <div class="wisteria">
+    <div class="front">
+      University of Huddersfield
+    </div>
+    <div class="back">
+      I study BSC ICT there.
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-10" ontouchstart="this.classList.toggle('hover');">
+  <div class="midnightblue">
+    <div class="front">
+      O2
+    </div>
+    <div class="back">
+      Placement at O2!
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-11" ontouchstart="this.classList.toggle('hover');">
+  <div class="sunflower">
+    <div class="front">
+      Leeds United
+    </div>
+    <div class="back">
+      The Football Club I support
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-12" ontouchstart="this.classList.toggle('hover');">
+  <div class="carrot">
+    <div class="front">
+      Leeds Rhinos
+    </div>
+    <div class="back">
+      The Rugby League Club I support
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-13" ontouchstart="this.classList.toggle('hover');">
+  <div class="alizarin">
+    <div class="front">
+      DJing
+    </div>
+    <div class="back">
+      Spare time hobby
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-14" ontouchstart="this.classList.toggle('hover');">
+  <div class="clouds">
+    <div class="front">
+      FIFA 13
+    </div>
+    <div class="back">
+      Favourite Sports Game!
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-15" ontouchstart="this.classList.toggle('hover');">
+  <div class="concrete">
+    <div class="front">
+      Tennis
+    </div>
+    <div class="back">
+      I play Tennis as often as possible!
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-16" ontouchstart="this.classList.toggle('hover');">
+  <div class="orange">
+    <div class="front">
+      Politics
+    </div>
+    <div class="back">
+      I have an interest in politics!
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-17" ontouchstart="this.classList.toggle('hover');">
+  <div class="pumpkin">
+    <div class="front">
+      Leeds
+    </div>
+    <div class="back">
+      I am from Leeds!!!
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-18" ontouchstart="this.classList.toggle('hover');">
+  <div class="linkedin">
+    <div class="front">
+      <a href="http://uk.linkedin.com/in/callumleinster" tabindex="1">LinkedIn</a>
+    </div>
+    <div class="back">
+      <a href="http://uk.linkedin.com/in/callumleinster" tabindex="2">View my LinkedIn profile</a>
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-19" ontouchstart="this.classList.toggle('hover');">
+  <div class="facebook">
+    <div class="front">
+      <a href="https://www.facebook.com/Callum.Leinster1?ref=tn_tnmn" tabindex="3">Facebook</a>
+    </div>
+    <div class="back">
+      <a href="https://www.facebook.com/Callum.Leinster1?ref=tn_tnmn" tabindex="4">View my Facebook Profile</a>
+    </div>
+  </div>
+</div>
+
+<div class="flip-container-20" ontouchstart="this.classList.toggle('hover');">
+  <div class="twitter">
+    <div class="front">
+       <a href="https://twitter.com/callumleinster" tabindex="5">Twitter</a>
+    </div>
+    <div class="back">
+       <a href="https://twitter.com/callumleinster" tabindex="6">View my Twitter Profile</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>

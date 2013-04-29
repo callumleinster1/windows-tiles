@@ -1,0 +1,234 @@
+* { box-sizing: border-box }
+html, body {
+  width: 99%;
+  height: 100%;
+}
+div {
+  float: left;
+  display: block;
+  color: #fff;
+  width: 20%;
+  height: 25%;
+  position: relative;
+  transition: opacity 0.5s ease;
+}
+div:hover {
+  opacity: 0.85;
+}
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+  padding-left: 0.2em;
+  margin-bottom: 0.3em;
+  text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #111;
+}
+
+
+.flip-container {
+  perspective: 1000;
+}
+  /* flip the pane when hovered */
+.flip-container:hover .turquoise, .flip-container.hover .emerland {
+  transform: rotateY(180deg);
+}
+
+.flip-container-2:hover .emerland, .flip-container.hover .peterriver {
+  transform: rotateY(180deg);
+}
+
+.flip-container-3:hover .peterriver, .flip-container.hover .amethyst {
+  transform: rotateY(180deg);
+}
+
+.flip-container-4:hover .amethyst, .flip-container.hover .wetasphalt {
+  transform: rotateY(180deg);
+}
+
+.flip-container-5:hover .wetasphalt, .flip-container.hover .greensea {
+  transform: rotateY(180deg);
+}
+
+.flip-container-6:hover .greensea, .flip-container.hover .nephritis {
+  transform: rotateY(180deg);
+}
+
+.flip-container-7:hover .nephritis, .flip-container.hover .belizehole {
+  transform: rotateY(180deg);
+}
+
+.flip-container-8:hover .belizehole, .flip-container.hover .wisteria {
+  transform: rotateY(180deg);
+}
+
+.flip-container-9:hover .wisteria, .flip-container.hover .midnightblue {
+  transform: rotateY(180deg);
+}
+
+.flip-container-10:hover .midnightblue, .flip-container.hover .sunflower {
+  transform: rotateY(180deg);
+}
+
+.flip-container-11:hover .sunflower, .flip-container.hover .carrot {
+  transform: rotateY(180deg);
+}
+
+.flip-container-12:hover .carrot, .flip-container.hover .alizarin {
+  transform: rotateY(180deg);
+}
+
+.flip-container-13:hover .alizarin, .flip-container.hover .clouds {
+  transform: rotateY(180deg);
+}
+
+.flip-container-14:hover .clouds, .flip-container.hover .concrete {
+  transform: rotateY(180deg);
+}
+
+.flip-container-15:hover .concrete, .flip-container.hover .orange {
+  transform: rotateY(180deg);
+}
+
+.flip-container-16:hover .orange, .flip-container.hover .pumpkin {
+  transform: rotateY(180deg);
+}
+
+.flip-container-17:hover .pumpkin, .flip-container.hover .linkedin {
+  transform: rotateY(180deg);
+}
+
+.flip-container-18:hover .linkedin, .flip-container.hover .facebook {
+  transform: rotateY(180deg);
+}
+
+.flip-container-19:hover .facebook, .flip-container.hover .twitter {
+  transform: rotateY(180deg);
+}
+
+.flip-container-20:hover .twitter, .flip-container.hover .turquoise {
+  transform: rotateY(180deg);
+}
+/* flip the pane when hovered */
+
+.flip-container{
+  background: #1abc9c;
+}
+
+.flip-container-2 {
+  background: #2ecc71;
+}
+
+.flip-container-3 {
+  background: #3498db;
+}
+
+.flip-container-4 {
+  background: #9b59b6;
+}
+
+.flip-container-5 {
+  background: #34495e;
+}
+
+.flip-container-6 {
+  background: #16a085;
+}
+
+.flip-container-7 {
+  background: #27ae60;
+}
+
+.flip-container-8 {
+  background: #2980b9;
+}
+
+.flip-container-9 {
+  background: #8e44ad;
+}
+
+.flip-container-10 {
+  background: #2c3e50;
+}
+
+.flip-container-11 {
+  background: #f1c40f;
+}
+
+.flip-container-12 {
+  background: #e67e22;
+}
+
+.flip-container-13 {
+  background: #e74c3c;
+}
+
+.flip-container-14 {
+  background: #666; 
+}
+
+.flip-container-15 {
+  background: #95a5a6;
+}
+
+.flip-container-16 {
+  background: #f39c12;
+}
+
+.flip-container-17 {
+  background: #d35400;
+}
+
+.flip-container-18 {
+  background: #4875b4;
+}
+
+.flip-container-19 {
+  background: #3B5998;
+}
+
+.flip-container-20{
+  background: #4099ff;
+}
+
+/* flip speed goes here per class */
+
+.turquoise, .emerland, .peterriver, .amethyst, .wetasphalt, .greensea, .nephritis, .belizehole, .wisteria, .midnightblue, .sunflower, .carrot, .alizarin, .clouds, .concrete, .orange, .pumpkin, .linkedin, .facebook,.twitter {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.8em;
+  position: absolute;
+  left: 10;
+  bottom: 0;
+  padding-left: 0.5em;
+  margin-bottom: 0.3em;
+  text-transform: uppercase;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
