@@ -11,6 +11,7 @@ div {
   height: 25%;
   position: relative;
   transition: opacity 0.5s ease;
+  -webkit-transition: 0.5s ease;
 }
 div:hover {
   opacity: 0.85;
@@ -38,86 +39,107 @@ a:hover{
 
 .flip-container {
   perspective: 1000;
+  -webkit-perspective: 1000;
 }
   /* flip the pane when hovered */
 .flip-container:hover .turquoise, .flip-container.hover .emerland {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-2:hover .emerland, .flip-container.hover .peterriver {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-3:hover .peterriver, .flip-container.hover .amethyst {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-4:hover .amethyst, .flip-container.hover .wetasphalt {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-5:hover .wetasphalt, .flip-container.hover .greensea {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-6:hover .greensea, .flip-container.hover .nephritis {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-7:hover .nephritis, .flip-container.hover .belizehole {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-8:hover .belizehole, .flip-container.hover .wisteria {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-9:hover .wisteria, .flip-container.hover .midnightblue {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-10:hover .midnightblue, .flip-container.hover .sunflower {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-11:hover .sunflower, .flip-container.hover .carrot {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-12:hover .carrot, .flip-container.hover .alizarin {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-13:hover .alizarin, .flip-container.hover .clouds {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-14:hover .clouds, .flip-container.hover .concrete {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-15:hover .concrete, .flip-container.hover .orange {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-16:hover .orange, .flip-container.hover .pumpkin {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-17:hover .pumpkin, .flip-container.hover .linkedin {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-18:hover .linkedin, .flip-container.hover .facebook {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-19:hover .facebook, .flip-container.hover .twitter {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .flip-container-20:hover .twitter, .flip-container.hover .turquoise {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 /* flip the pane when hovered */
 
@@ -207,11 +229,13 @@ a:hover{
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative;
+  -webkit-transform-style: preserve-3d;
 }
 
 /* hide back of pane during swap */
 .front, .back {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   position: absolute;
   font-family: 'Noto Sans', sans-serif;
   font-size: 0.8em;
@@ -231,4 +255,5 @@ a:hover{
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
