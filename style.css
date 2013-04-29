@@ -51,8 +51,9 @@ table {
 * { box-sizing: border-box }
 
 html, body {
-  width: 99%;
+  width: 99.9%;
   height: 100%;
+  background-color: #d0d0d0;
 }
 
 div {
@@ -69,6 +70,46 @@ div {
 div:hover {
   opacity: 0.85;
 }
+
+h1{
+  color: #000;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  color: #ffffff;
+  font-size: medium;
+  text-align: left;
+  margin: -11px 0 0 13px;
+}
+
+h3{
+  font-size: large;
+  text-align: left;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+h4{
+  font-size: 0.78em;
+  text-align: left;
+  color: #ffffff;
+}
+
+h5{
+  font-size: 0.70em;
+  text-align: left;
+  color: #ffffff;
+}
+
+h4{
+  font-size: 0.65em;
+  text-align: left;
+  color: #ffffff;
+}
+
 
 p {
   font-family: 'Noto Sans', sans-serif;
@@ -89,6 +130,12 @@ a:hover{
   text-decoration: none;
   color: #111;
 }
+
+header, footer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 .flip-container {
   perspective: 1000;
